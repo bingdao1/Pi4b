@@ -23,7 +23,7 @@ on:
     types: started
 
 env:
-  REPO_URL: https://github.com/hikelin19871112/lede.git
+  REPO_URL: https://github.com/immortalwrt/immortalwrt.git
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
@@ -38,7 +38,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     #if: github.event.repository.owner.id == github.event.sender.id
 
     steps:
