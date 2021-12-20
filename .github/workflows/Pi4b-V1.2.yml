@@ -1,17 +1,6 @@
-#=================================================
-# https://github.com/P3TERX/Actions-OpenWrt
-# Description: Build OpenWrt using GitHub Actions
-# Lisence: MIT
-# Author: P3TERX
-# Blog: https://p3terx.com
-#=================================================
-
 name: Pi4B1.2 OpenWrt
 
 on:
-  repository_dispatch:
-  release:
-    types: published
 #  push:
 #    branches:
 #      - master
